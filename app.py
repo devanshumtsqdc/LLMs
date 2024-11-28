@@ -53,7 +53,7 @@ def call_gemini(prompt):
     return gemini.invoke(prompt)
 
 # Streamlit App
-st.title("AI Model Selector")
+st.title("Ken42 LLM")
 st.markdown("Select a model and run your query:")
 
 # Model Selection
